@@ -1,6 +1,7 @@
 # Setup ESLINT and PRETTIER in React app to clean code 
 
-Eslin + Prettier = Clean Code 
+ESLint statically analyses our code and find the problems.
+Prettier is an opinionated code formatter which is compatible with most of the languages.
 
 # Step 1 : 
 create app with vite 
