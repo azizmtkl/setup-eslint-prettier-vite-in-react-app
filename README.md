@@ -36,7 +36,7 @@ then make changes in .eslintrc file:
 
 # Step 6 :
 Create .prettierrc and paste the below code:
-
+```
 {
   "semi": true,
   "tabWidth": 2,
@@ -45,13 +45,16 @@ Create .prettierrc and paste the below code:
   "trailingComma": "none",
   "jsxBracketSameLine": true
 }
+```
 
 # Step 7 :
 Now, eslint and prettier is setup lets add the script to the package.json
 
+```
 "lint": "eslint .",
 "lint:fix": "eslint --fix",
 "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+```
 
 
 
