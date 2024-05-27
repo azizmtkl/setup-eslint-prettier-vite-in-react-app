@@ -1,5 +1,6 @@
-# Setup ESLINT and PRETTIER in React app
-# Eslin + Prettier = Clean Code 
+# Setup ESLINT and PRETTIER in React app to clean code 
+
+Eslin + Prettier = Clean Code 
 
 # Step 1 : 
 create app with vite 
