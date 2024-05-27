@@ -3,28 +3,35 @@
 
 # Step 1 : 
 create app with vite 
+```
+npm create vite 
+```
 
 # Step 2 : 
 install eslint (installed by default in vite )
+```
 npm install eslint --save-dev
 or 
 yarn install eslint --save-dev
+```
 
 # Step 3 :
 add to .eslintrc
-
+```
 "rules": {
     "react/react-in-jsx-scope": "off"
   }
+```
 
 # Step 4 :
 If you are using jest , Add jest : True inside env : 
-
+```
 "env": {
     "browser": true,
     "es2021": true,
     "jest": true
   }
+```
 
 # Step 5 : 
 npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
